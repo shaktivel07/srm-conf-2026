@@ -27,7 +27,7 @@ export default function Footer() {
             <hr className='w-4/5 border-gray-400' />
             <div className='py-3 text-xs md:text-sm text-center'>
                 <p>Copyright © 2026 | SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, TIRUCHIRAPPALLI</p>
-                <p className='py-2'>Developed by <Link href={"https://www.vimalvs.com"} className='font-semibold'>VS</Link></p>
+                <p className='py-2'>Developed by <Link href={"https://github.com/shaktivel07"} className='font-semibold'>Shaktivel</Link></p>
             </div>
         </div>
     )
