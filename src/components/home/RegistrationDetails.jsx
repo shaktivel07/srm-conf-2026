@@ -32,21 +32,21 @@ export default function RegistrationDetails() {
                         <tbody>
                             <tr>
                                 <td className="border border-gray-300 py-2 px-4 text-left">Authors from India (INR)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹13,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹14,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹15,000</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">₹2,000</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹5,500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹5,500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">₹5,500</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left"> will be announced </td>
                             </tr>
                             <tr>
                                 <td className="border border-gray-300 py-2 px-4 text-left">Authors from outside India (USD)</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$200</td>
-                                <td className="border border-gray-300 py-2 px-4 text-left">$65</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$60</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$60</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">$60</td>
+                                <td className="border border-gray-300 py-2 px-4 text-left">will be announced </td>
                             </tr>
                         </tbody>
                     </table>
-                    <p className="mt-4 text-sm text-gray-600">* Authors would be able to avail an early bird discount of 10% on the registration fee if they register before the specified date.</p>
+                    <p className="mt-4 text-sm text-gray-600"></p>
                 </div>
             </div>
         </div>

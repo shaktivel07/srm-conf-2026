@@ -9,8 +9,8 @@ export default function page() {
                 <div className="flex flex-col justify-center items-center mb-8">
                     <div className="flex flex-col justify-center w-fit pb-8 md:max-w-[70%]">
                         <h3 className="text-xl font-bold mb-4">Paper Submission Instructions:</h3>
-                        <p className="mb-4">While preparing your manuscript, we recommend to copy paste your content directly into this AIP template. (The template is to be attached in the website)</p>
-                        <p>Short papers - 9 to 11 Pages and Long Papers 12-15 Pages</p>
+                        <p className="mb-4">While preparing your manuscript, we recommend to copy paste your content directly into this EAI template. (The template is to be attached in the website)</p>
+                        <p>Maximum Paper size : 6 Pages</p>
                         <h3 className="text-xl font-bold mt-8 mb-4">Review Process:</h3>
                         <ol className="pl-6 space-y-2 md:space-y-2 -ml-2">
                             <li className="flex gap-2 md:items-center mb-2"><Image src={tick} alt='-' className='size-5' />At first, the manuscripts received would be evaluated from the purview of the scope of this conference.</li>
@@ -20,7 +20,7 @@ export default function page() {
                             <li className="flex gap-2 md:items-center mb-2"><Image src={tick} alt='-' className='size-5' />One reviewer would not review more than three manuscripts.</li>
                         </ol>
                         <h3 className="text-xl font-bold mt-8 mb-4">Publication and Indexing:</h3>
-                        <p className="mb-4">The articles submitted to the Sustainable Multimodal Artificial Intelligence for Research and Technology Transfer (SMARTT 2026) will be subjected to double-blind peer review by the panel of experts. All accepted and registered papers will be included in the conference proceedings that will be published by AIP. (Waiting for approval)</p>
+                        <p className="mb-4">The articles submitted to the Sustainable Multimodal Artificial Intelligence for Research and Technology Transformations (SMARTT 2026) will be subjected to double-blind peer review by the panel of experts. All accepted and registered papers will be included in the conference proceedings that will be published by AIP. (Waiting for approval)</p>
                         <h3 className="text-xl font-bold mt-8 mb-4">Best Paper Award:</h3>
                         <p>One paper from each of the 10 tracks listed in Call for Papers will be selected as Best Paper. The Best Papers will be announced at culmination of the conference.</p>
                     </div>

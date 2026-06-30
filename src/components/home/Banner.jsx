@@ -23,8 +23,8 @@ export default function Banner() {
                     {/* content */}
                     <div className="text-white z-10 text-center w-full">
                         <div className="md:space-y-4">
-                            <h1 className="text-xl md:text-4xl xl:text-5xl font-bold">Sustainable Multimodal AI</h1>
-                            <h1 className="text-xl md:text-4xl xl:text-5xl  font-bold">for Research & Tech Transfer</h1>
+                            <h1 className="text-xl md:text-4xl xl:text-5xl font-bold">Sustainable Multimodal Artificial Intelligence </h1>
+                            <h1 className="text-xl md:text-4xl xl:text-5xl  font-bold">for Research and Technology Transformations</h1>
                             <h1 className="text-xl md:text-xl xl:text-3xl font-bold">(SMARTT 2026)</h1>
                         </div>
                         <p className="mt-3 md:mt-6 flex justify-center items-center gap-3 font-medium text-sm w-full">
@@ -36,7 +36,7 @@ export default function Banner() {
                     <div className="text-white z-10 text-center pt-4 space-y-3 mt-2 md:space-y-6">
                         <p className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={calendar} alt="calendar" className="h-8 w-fit" />
-                            19TH & 20TH SEPTEMBER 2026
+                            26TH & 27TH NOVEMBER 2026
                         </p>
                         <Link href={""} className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={location} alt="calendar" className="h-8 w-fit" />
