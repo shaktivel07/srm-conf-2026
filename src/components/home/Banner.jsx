@@ -28,7 +28,7 @@ export default function Banner() {
                             <h1 className="text-xl md:text-xl xl:text-3xl font-bold">(SMARTT 2026)</h1>
                         </div>
                         <p className="mt-3 md:mt-6 flex justify-center items-center gap-3 font-medium text-sm w-full">
-                            <span className="pr-4 h-[2px] w-1/5 md:1/4 bg-white"></span>
+                    
                             Hybrid Mode (Online & Offline)
                         </p>
                     </div>
@@ -36,7 +36,7 @@ export default function Banner() {
                     <div className="text-white z-10 text-center pt-4 space-y-3 mt-2 md:space-y-6">
                         <p className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={calendar} alt="calendar" className="h-8 w-fit" />
-                            26TH & 27TH NOVEMBER 2026
+                            26<sup>th</sup> & 27<sup>th</sup> NOVEMBER 2026
                         </p>
                         <Link href={""} className="flex justify-center items-center gap-3 font-medium text-sm md:text-xl">
                             <Image src={location} alt="calendar" className="h-8 w-fit" />
