@@ -47,6 +47,10 @@ export default function Header() {
             link: "/registration",
         },
         {
+            name: "Submissions",
+            link: "/submissions",
+        },
+        {
             name: "Advisory Board",
             link: "/advisory-board",
         },

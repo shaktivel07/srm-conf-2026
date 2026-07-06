@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/advisory-board/page": "app/advisory-board/page.js",
+  "/plan-travel/page": "app/plan-travel/page.js",
+  "/submissions/page": "app/submissions/page.js",
+  "/program/page": "app/program/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

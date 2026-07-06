@@ -43,8 +43,12 @@ export default function Banner() {
                             SRM IST, Tiruchirappalli
                         </Link>
                     </div>
-                    {/* register */}
-                    <div className="z-10 mt-4 md:mt-8">
+                    {/* register and paper submission */}
+                    <div className="z-10 mt-4 md:mt-8 flex flex-col md:flex-row gap-4">
+                        <Button variant={"outline"} onClick={() => router.push("/submissions")} className="bg-blue-600 text-white border-0 text-lg px-6 py-6 hover:bg-blue-700 hover:text-white flex justify-center items-center gap-2">
+                            Paper Submission
+                            <Image src={arrowRight} alt="arrow-right" className="h-5 w-5" />
+                        </Button>
                         <Button variant={"outline"} onClick={() => router.push("/registration")} className="bg-pink-600 text-white border-0 text-lg px-6 py-6 hover:bg-pink-700 hover:text-white flex justify-center items-center gap-2">
                             Register
                             <Image src={arrowRight} alt="arrow-right" className="h-5 w-5" />

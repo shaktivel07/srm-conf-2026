@@ -35,6 +35,15 @@ export default function page() {
                             <li className="flex gap-2 md:items-center"><Image src={tick} alt='-' className='size-5' />If one of the authors of the paper has registered in the author&apos;s registration category, then all other authors of the paper may register under the co-authors&apos; registration category if they wish to attend the conference.</li>
                         </ul>
                     </div>
+
+                    {/* Paper Submission Section */}
+                    <div className="flex flex-col items-center justify-center w-[90%] md:max-w-[70%] mt-16 mb-4">
+                        <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">Ready to submit your paper?</h3>
+                        <Link href="/submissions" className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-full font-bold shadow-lg transition duration-300">
+                            Paper Submission
+                        </Link>
+                    </div>
+
                     <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-16">Registration Coming Soon</h1>
                     <p className="text-gray-600 text-lg mb-8">We&apos;re working on this. Stay tuned!</p>
                     <div className="flex space-x-4">
