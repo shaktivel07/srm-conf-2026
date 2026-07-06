@@ -81,8 +81,7 @@ export default function page() {
     ];
 
     const chiefPatrons = [
-        { name: "Dr. N. Sethuraman", title: "Chief Director", institution: "SRM Group of Educational Institutions, Ramapuram Campus" },
-        { name: "Dr. N. Malmurugan", title: "Director", institution: "SRM Group of Educational Institutions, Tiruchirappalli Campus" }
+        { name: "Dr. N. Sethuraman", title: "Chief Director", institution: "SRM Group of Educational Institutions, Ramapuram Campus" }
     ];
 
     const patrons = [
@@ -94,30 +93,33 @@ export default function page() {
     ];
 
     const technicalChair = [
-        { name: "Dr.R.Balaji Ganesh", qualification: "B.E., M.E., Ph.D, Post-Doc", designation: "Assistant Professor & HoD AIML" },
-        { name: "Mr.J.Paul RajaSingh", qualification: "B.E., M.E.,(Ph.D)", designation: "Assistant Professor" },
-        { name: "Dr.M.Devipriya", qualification: "B.E.,M.S(By Research ).,Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.R.Deebalakshmi", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor & HoD Cyber Security" },
-        { name: "Dr.K.R.Saranya", qualification: "B.E., M.E.,Ph.D.", designation: "Assistant Professor" },
-        { name: "Dr.S. Sivakumar", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.L.Josephine Usha", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" }
+        { name: "Dr.Senthil Kumar P", designation: "Associate Professor" },
+        { name: "Dr.Siva subramanian R", designation: "Associate Professor" },
+        { name: "Dr.Sathish Kumar K", designation: "Associate Professor" },
+        { name: "Dr. Rahul Shrivastava", designation: "Associate Professor" },
+        { name: "Dr.Dhanasekaran K", designation: "Associate Professor" }
     ];
 
     const conferenceTreasurers = [
-        { name: "Mrs.R.Sharanya", qualification: "B.E., M.E.,(Ph.D)", designation: "Assistant Professor" },
-        { name: "Dr. V.Senthil Kumar", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.P.Shanmuga Sundari", qualification: "B.Sc.,M.C.A.,M.E., Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.S.Anbukkarasi", qualification: "B. tech.,M.E.,MBA, Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.D. Chitradevi", qualification: "M.E.,Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.K.Jayanthi", qualification: "B. Tech., M.Tech.,Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.N.Saranya", qualification: "B.E., M.E.,Ph.D", designation: "Assistant Professor" }
+        { name: "Mr.J.Paul RajaSingh", designation: "Assistant Professor" },
+        { name: "Dr.K.R.Saranya", designation: "Assistant Professor" },
+        { name: "Dr.S.Sivakumar", designation: "Assistant Professor" },
+        { name: "Dr.L.Josephine Usha", designation: "Assistant Professor" },
+        { name: "Ms.R.Sharanya", designation: "Assistant Professor" },
+        { name: "Dr.N.Saranya", designation: "Assistant Professor" },
+        { name: "Dr.V. Mani", designation: "Assistant Professor" },
+        { name: "Dr.S .Rahmath Nisha", designation: "Assistant Professor" }
     ];
 
     const committeeMembers = [
-        { name: "Dr.S. Shanmuga Priya", qualification: "B.tech.,M.E.,MBA, Ph.D", designation: "Assistant Professor" },
-        { name: "Ms. T.Siron Anita Susan", qualification: "B.Tech., M.Tech.,Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.R. Sheeba", qualification: "B.E., M.E., Ph.D", designation: "Assistant Professor" },
-        { name: "Dr.K.Nithya", qualification: "B.Tech., M.Tech.,Ph.D", designation: "Assistant Professor" }
+        { name: "Dr.S.Sakthivel", designation: "Assistant Professor" },
+        { name: "Mr.Ajey Prasaath K.B", designation: "Assistant Professor" },
+        { name: "Mr.Naresh Kumar R", designation: "Assistant Professor" },
+        { name: "Dr.Muthukumar.M", designation: "Assistant Professor" },
+        { name: "Dr.J.Jegan", designation: "Assistant Professor" },
+        { name: "Mr.Hariharan", designation: "Assistant Professor" },
+        { name: "Dr.S.Shargunam", designation: "Assistant Professor" },
+        { name: "Dr.Deena Rose", designation: "Assistant Professor" }
     ];
 
     const studentList = [
@@ -207,7 +209,6 @@ export default function page() {
                         <thead className="divide-y divide-[#eeeeee2f]">
                             <tr>
                                 <th className={tableHeaderStyle}>Name</th>
-                                <th className={tableHeaderStyle}>Qualification</th>
                                 <th className={tableHeaderStyle}>Designation</th>
                             </tr>
                         </thead>
@@ -215,7 +216,6 @@ export default function page() {
                             {technicalChair.map((person, index) => (
                                 <tr key={index}>
                                     <td className={tableCellStyle}>{person.name}</td>
-                                    <td className={tableCellStyle}>{person.qualification}</td>
                                     <td className={tableCellStyle}>{person.designation}</td>
                                 </tr>
                             ))}
@@ -227,7 +227,6 @@ export default function page() {
                         <thead className="divide-y divide-[#eeeeee2f]">
                             <tr>
                                 <th className={tableHeaderStyle}>Name</th>
-                                <th className={tableHeaderStyle}>Qualification</th>
                                 <th className={tableHeaderStyle}>Designation</th>
                             </tr>
                         </thead>
@@ -235,7 +234,6 @@ export default function page() {
                             {conferenceTreasurers.map((person, index) => (
                                 <tr key={index}>
                                     <td className={tableCellStyle}>{person.name}</td>
-                                    <td className={tableCellStyle}>{person.qualification}</td>
                                     <td className={tableCellStyle}>{person.designation}</td>
                                 </tr>
                             ))}
@@ -247,7 +245,6 @@ export default function page() {
                         <thead className="divide-y divide-[#eeeeee2f]">
                             <tr>
                                 <th className={tableHeaderStyle}>Name</th>
-                                <th className={tableHeaderStyle}>Qualification</th>
                                 <th className={tableHeaderStyle}>Designation</th>
                             </tr>
                         </thead>
@@ -255,7 +252,6 @@ export default function page() {
                             {committeeMembers.map((person, index) => (
                                 <tr key={index}>
                                     <td className={tableCellStyle}>{person.name}</td>
-                                    <td className={tableCellStyle}>{person.qualification}</td>
                                     <td className={tableCellStyle}>{person.designation}</td>
                                 </tr>
                             ))}
