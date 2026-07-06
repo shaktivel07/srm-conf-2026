@@ -47,7 +47,7 @@ export default function Header() {
             link: "/registration",
         },
         {
-            name: "Submissions",
+            name: "Paper Submission",
             link: "/submissions",
         },
         {
