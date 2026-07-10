@@ -44,7 +44,7 @@ export default function page() {
                         </Link>
                     </div>
 
-                    <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-16">Registration Coming Soon</h1>
+                    {/* <h1 className="text-4xl font-bold text-gray-800 mb-4 mt-16">Registration Coming Soon</h1>
                     <p className="text-gray-600 text-lg mb-8">We&apos;re working on this. Stay tuned!</p>
                     <div className="flex space-x-4">
                         <Link href="/" className="bg-blue-900 hover:bg-blue-800  text-white py-2 px-4 rounded-full shadow-lg transition duration-300">
@@ -53,7 +53,8 @@ export default function page() {
                         <Link href="/reach-us" className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded-full shadow-lg transition duration-300">
                             Contact
                         </Link>
-                    </div>
+                    </div> */}
+                    
                 </div>
             </div>
         </div>
