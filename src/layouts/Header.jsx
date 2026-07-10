@@ -43,7 +43,7 @@ export default function Header() {
             link: "/program",
         },
         {
-            name: "Registration",
+            name: "Instructions",
             link: "/registration",
         },
         {
